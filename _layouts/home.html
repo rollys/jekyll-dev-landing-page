@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<main>
+  <div class="intro">
+    {% if site.title_intro %} {{ site.title_intro }} {% else %} Hello, I'm {{
+    site.author }}! {% endif %}
+  </div>
+  <div class="content">{{ content }}</div>
+  <div class="icons-social">
+    {% if site.title_plataforms %}
+    <p>{{ site.title_plataforms }}</p>
+    {% endif %} {% for plataform in site.data.plataforms %} {% if
+    plataform.visibility == true %}
+    <a target="_blank" href="{{ plataform.link }}" title="{{ plataform.name }}">
+      <i class="fab {{ plataform.icon }}"></i>
+    </a>
+    {% endif %}{% else %} The plataforms is empty. {% endfor %}
+  </div>
+</main>

@@ -1,0 +1,75 @@
+/* Theme Colors */
+
+/* default value */
+$bg-color: #43a047;
+$txt-color: #fafafa;
+$link-color: #fafafa;
+$icon-color: #fafafa;
+$font--html: "Roboto", sans-serif;
+$font--intro: "Reem Kufi", sans-serif;
+/**/
+
+@if $theme == green-white {
+  $bg-color: #43a047;
+  $txt-color: #fafafa;
+  $link-color: #fafafa;
+  $icon-color: #fafafa;
+} @else if $theme == grey-white {
+  $bg-color: #485564;
+  $txt-color: #fafafa;
+  $link-color: #fafafa;
+  $icon-color: #fafafa;
+} @else if $theme == indigo-white {
+  $bg-color: #303f9f;
+  $txt-color: #fafafa;
+  $link-color: #fafafa;
+  $icon-color: #fafafa;
+} @else if $theme == red-white {
+  $bg-color: #af3d4e;
+  $txt-color: #fafafa;
+  $link-color: #fafafa;
+  $icon-color: #fafafa;
+} @else if $theme == white-blue {
+  $bg-color: #fafafa;
+  $txt-color: #0277bd;
+  $link-color: #0277bd;
+  $icon-color: #0277bd;
+} @else if $theme == white-grey {
+  $bg-color: #ededed;
+  $txt-color: #4b5658;
+  $link-color: #4b5658;
+  $icon-color: #4b5658;
+} @else if $theme == white-indigo {
+  $bg-color: #e8eaf6;
+  $txt-color: #303f9f;
+  $link-color: #303f9f;
+  $icon-color: #303f9f;
+} @else if $theme == white-red {
+  $bg-color: #ededed;
+  $txt-color: #af3d4e;
+  $link-color: #af3d4e;
+  $icon-color: #af3d4e;
+} @else if $theme == yellow-black {
+  $bg-color: #ffeb3b;
+  $txt-color: #1e1e1e;
+  $link-color: #1e1e1e;
+  $icon-color: #1e1e1e;
+} @else if $theme == indigo-white-pacifico {
+  $bg-color: #303f9f;
+  $txt-color: #fafafa;
+  $link-color: #fafafa;
+  $icon-color: #fafafa;
+  $font--intro: "Pacifico", sans-serif;
+} @else if $theme == white-grey-pacifico {
+  $bg-color: #ededed;
+  $txt-color: #4b5658;
+  $link-color: #4b5658;
+  $icon-color: #4b5658;
+  $font--intro: "Pacifico", sans-serif;
+} @else if $theme == yellow-black-pacifico {
+  $bg-color: #ffeb3b;
+  $txt-color: #1e1e1e;
+  $link-color: #1e1e1e;
+  $icon-color: #1e1e1e;
+  $font--intro: "Pacifico", sans-serif;
+}

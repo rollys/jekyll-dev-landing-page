@@ -1,0 +1,41 @@
+#Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands
+- name: Github
+  link: https://github.com/rollys
+  icon: fa-github
+  visibility: true
+- name: Twitter
+  link: https://twitter.com/pwnakil
+  icon: fa-twitter
+  visibility: true
+- name: Dev
+  link: https://dev.to/
+  icon: fa-dev
+  visibility: false
+- name: Stack Overflow
+  link: https://stackoverflow.com/
+  icon: fa-stack-overflow
+  visibility: false
+- name: Linkedin
+  link: https://www.linkedin.com/in/rollysanchez
+  icon: fa-linkedin
+  visibility: true
+- name: Medium
+  link: https://medium.com/
+  icon: fa-medium
+  visibility: false
+- name: Free Code Camp
+  link: https://www.freecodecamp.org
+  icon: fa-free-code-camp
+  visibility: false
+- name: Behance
+  link: https://www.behance.net
+  icon: fa-behance
+  visibility: false
+- name: Codepen
+  link: https://codepen.io
+  icon: fa-codepen
+  visibility: false
+- name: CTF Time
+  link: https://ctftime.org/team/134559
+  icon: fa-font-awesome-flag
+  visibility: true

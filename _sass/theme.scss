@@ -1,0 +1,29 @@
+/* Theme */
+@import "variables/themes";
+
+html {
+  font-family: $font--html;
+}
+
+main {
+  @if $themeNameBackground {
+    background-image: url("../image/#{$themeNameBackground}.#{$themeExtensionBackground}");
+    background-size: cover;
+  } @else {
+    background: $bg-color;
+  }
+  color: $txt-color;
+
+  > .intro {
+    font-family: $font--intro;
+  }
+}
+
+.icons-social a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+.icons-social a svg path {
+  fill: $icon-color;
+}

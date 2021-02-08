@@ -1,0 +1,7 @@
+---
+---
+$theme: {{ site.theme_custom }};
+$themeNameBackground: {{ site.theme_name_background }};
+$themeExtensionBackground: {{ site.theme_extension_background }};
+
+@import "theme";
