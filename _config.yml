@@ -14,8 +14,8 @@ twitter:
 title_intro: # overwrite "Hello, I'm *author*", keep empty for don't overwrite, e.g Rolly Sanchez!.
 skill_separator: "|" # the separator symbol to your skill at home page.
 title_plataforms: Connect with me on # keep empty for don't show title on plataforms icon.
-forkme: true # true or false to show or hide forkme button.
-forkme_link: https://github.com/rollys/jekyll-dev-landing-page # link of your repository.
+forkme: false # true or false to show or hide forkme button.
+forkme_link: https://github.com/rollys/jekyll-dev-landing-page # link of repository fork.
 
 # Build settings
 plugins:

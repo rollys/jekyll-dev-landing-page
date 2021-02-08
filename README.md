@@ -88,7 +88,7 @@ You can customize theme with this options.
   - `title_intro`: is any text that will overwrite "Hello, I,m _author_" at home page, keep empty value for don't overwrite "Hello, I,m _author_". For default: _empty value_.
   - `skill_separator`: is the symbol that separate your skills at home page. For default: `|`.
   - `title_plataforms`: is the title for plataforms icon at home page, keep empty value for don't show this title. For default: `Connect with me on`.
-  - `forkme`: show (`true` value) or hide (`false` value) _fork me_ button at home page. For default: `true`.
+  - `forkme`: show (`true` value) or hide (`false` value) _fork me_ button at home page. For default: `false`.
   - `forkme_link`: is the link of your repository of project,for default: `https://github.com/rollys/jekyll-dev-landing-page`.
 - Edit `plataforms.yml` file: in this file your find a plataform list as `linkedin, twitter, stackoverflow, etc.` You add (or remove) plataform that you use, follow the format.
 - Edit `skills.yml` file: here you put your skills, follow the format.
